@@ -22,6 +22,16 @@ public class player {
         weaponInventory.add(weapon);
     }
 
+    public void gameOver(){}
+
+    public int getHitPoints() {
+        return hitPoints;
+    }
+
+    public void setHitPoints(int hitPoints) {
+        this.hitPoints = hitPoints;
+    }
+
     public void setEquippedWeapon(weapon equippedWeapon) {
         this.equippedWeapon = equippedWeapon;
     }

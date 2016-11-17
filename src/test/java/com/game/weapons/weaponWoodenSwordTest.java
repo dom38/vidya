@@ -13,7 +13,7 @@ public class weaponWoodenSwordTest {
     public void attackDamage() throws Exception {
 
         weapon sword = new weaponWoodenSword();
-        int damage = sword.attackDamage(5,1,1);
+        int damage = sword.attackDamage();
 
         assertEquals(damage, 6);
 
@@ -23,7 +23,7 @@ public class weaponWoodenSwordTest {
     public void blockDamage() throws Exception {
 
         weapon sword = new weaponWoodenSword();
-        int block = sword.blockDamage(5,1,1);
+        int block = sword.blockDamage();
 
         assertEquals(block, 4, 1);
 

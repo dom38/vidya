@@ -18,13 +18,13 @@ public class weapon {
 
 
 
-    public int attackDamage(int strength, int diceRolls, int diceSize) {
+    public int attackDamage() {
 
         int damage = strength + dice.rollDice(diceRolls, diceSize);
         return damage;
     }
 
-    public int blockDamage(int block, int diceRolls, int diceSize) {
+    public int blockDamage() {
 
         int damageBlocked = (block/2) + dice.rollDice(diceRolls,diceSize);
         return damageBlocked;
